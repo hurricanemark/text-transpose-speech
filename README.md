@@ -49,4 +49,6 @@ Server running at http://localhost:1234
 
 ## Navigate to http://localhost:1234
 
-![demo](text-to-speech.png)
+![screenshot](text-to-speech.png)
+
+![demo](./dist/index.html)
