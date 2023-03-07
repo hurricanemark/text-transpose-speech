@@ -42,3 +42,6 @@ Server running at http://localhost:1234
 ✨ Built in 1.11s
 ```
 
+## Navigate to http://localhost:1234
+
+![demo](text-to-speech.png)
