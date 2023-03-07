@@ -1,0 +1,16 @@
+{
+  "name": "text-to-speech",
+  "version": "1.0.0",
+  "description": "A client web application developed with Parcel (a development build server).",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": ["parcel", "speechSynthesis"],
+  "author": "Mark Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
