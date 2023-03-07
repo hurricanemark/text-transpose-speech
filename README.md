@@ -47,8 +47,8 @@ Server running at http://localhost:1234
 ✨ Built in 1.11s
 ```
 
-## Navigate to http://localhost:1234
+## Navigate to `http://localhost:1234`
 
 ![screenshot](text-to-speech.png)
 
-![demo](./dist/index.html)
+![demo](https://hurricanemark.github.io/text-to-speech-demo/)
