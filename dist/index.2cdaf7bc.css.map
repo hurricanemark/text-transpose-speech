@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAGA","sources":["src/style.css"],"sourcesContent":["body {\n    font-family: Calibri;\n}\n#rate-control {\n    display: flex;\n    align-items: center;\n    gap: 1rem;\n    margin: 1rem 0;\n}"],"names":[],"version":3,"file":"index.2cdaf7bc.css.map","sourceRoot":"/__parcel_source_root/"}

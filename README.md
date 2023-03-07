@@ -24,6 +24,9 @@ npm install --save-dev parcel
 
 ## Run
 
+The `parcel build` command bundles and optimizes your application for production.  It creates a default `dist` folder, then outputs neccessary code to run your application in it.  By default, minification, and tree shaking and scope hoisting are enabled when using the parcel build command. It is a good idea to remove the `dist`, and `parcel-cache` folders before re-building for production.  [Read more](https://parceljs.org/features/production/)
+
+
 ```script
 npm run build
 
@@ -34,6 +37,8 @@ dist/index.html            676 B    1.15s
 dist/index.0a8ea8c3.css    159 B    496ms
 dist/index.6a6eaf2f.js     524 B    805ms
 ```
+
+The `parcel` command runs the development server.
 
 ```script
 npm run start
