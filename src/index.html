@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+        body {
+            font-family: Calibri;
+        }
+        
+        #rate-control {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+    </style>
 
     <title>Text to Speech</title>
 </head>
+
 <body>
     <h2>Transpose text to computer speech.</h2>
 
@@ -17,9 +31,32 @@
     </div>
     <input type="text" id="usertext" placeholder="Enter your text here to be transposed" />
     <button id="play">Speak</button>
-  
 
-    <script type="module" src="script.js"></script>
 
+    <!-- <script type="module" src="script.js"></script> -->
+    <script>
+        const synth = window.speechSynthesis;
+        const play = document.querySelector("#play");
+        const rate = document.querySelector("#rate");
+
+        function playsound() {
+            const itext = document.getElementById("usertext").value;
+            if ('speechSynthesis' in window) {
+
+                if (synth.speaking) {
+                    synth.cancel();
+                }
+                const utterThis = new SpeechSynthesisUtterance(itext);
+                utterThis.addEventListener("error", () => {
+                    console.error("SpeechSynthesisUtterance error.");
+                });
+                utterThis.rate = rate.value;
+                synth.speak(utterThis);
+            } else {
+                alert("Sorry.  This browser doen't support synthetic speech");
+            }
+        }
+        play.addEventListener("click", playsound);
+    </script>
 </body>
-</html>
+< /html>
