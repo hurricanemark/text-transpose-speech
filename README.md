@@ -1,6 +1,6 @@
 # Text-to-Speech App
 
-A client web application developed with Parcel (a development build server).
+A client web application developed with Parcel (a development build server).  The speech pattern should resemble how the speech synthesizer used by the physicist Steven Hawkins would sound.
 
 Ref: [parcel](https://parceljs.org/getting-started/webapp/)
 
@@ -51,4 +51,7 @@ Server running at http://localhost:1234
 
 ![screenshot](text-to-speech.png)
 
-![demo](https://hurricanemark.github.io/text-to-speech-demo/)
+## Run it on your computer
+
+Since the client app requires a hardware synthesis (i.e. your speaker and such), you will need to clone or down load this code to your machine and open the index.html file in your web browser.  [download](https://github.com/hurricanemark/text-to-speech-demo/archive/refs/tags/Beta.v0.1.0.zip)
+
