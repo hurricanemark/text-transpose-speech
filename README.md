@@ -53,7 +53,7 @@ Server running at http://localhost:1234
 
 ## Run Demo
 
-![Live demo](https://hurricanemark.github.io/text-to-speech-demo/)
+[Live demo](https://hurricanemark.github.io/text-to-speech-demo/)
 
 ## Have your own copy on local machine
 
