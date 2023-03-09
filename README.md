@@ -11,7 +11,7 @@ Ref: [parcel](https://parceljs.org/getting-started/webapp/)
 
 ## Getting started
 
-* Scalfolding:
+* scaffolding:
 
 ```script
 npm init -y
