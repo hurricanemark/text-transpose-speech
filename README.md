@@ -1,6 +1,10 @@
 # Text-to-Speech App
 
-A client web application developed with Parcel (a development build server).  The speech pattern should resemble how the speech synthesizer used by the physicist Steven Hawkins would sound.
+You can impress someone of your coding prowess with this app which requires very little code.  
+A client web application developed with Parcel (a development build server).  Note, a client app infers that you don not need a server to run.  Parcel is a development/build management server.  
+
+The speech pattern of this app should resemble how the speech synthesizer used by the physicist Stephen Hawking would sound.
+
 
 Ref: [parcel](https://parceljs.org/getting-started/webapp/)
 
