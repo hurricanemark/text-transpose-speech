@@ -51,7 +51,11 @@ Server running at http://localhost:1234
 
 ![screenshot](text-to-speech.png)
 
-## Run it on your computer
+## Run Demo
 
-Since the client app requires a hardware synthesis (i.e. your speaker and such), you will need to clone or down load this code to your machine and open the index.html file in your web browser.  [download](https://github.com/hurricanemark/text-to-speech-demo/archive/refs/tags/Beta.v0.1.0.zip)
+![Live demo](https://hurricanemark.github.io/text-to-speech-demo/)
+
+## Have your onw copy on local machine
+
+You can download this code to your machine and open the index.html file in your web browser.  [download](https://github.com/hurricanemark/text-to-speech-demo/archive/refs/tags/Beta.v0.1.0.zip).  Edit `index.html` file to further customize it for yourself.   
 
